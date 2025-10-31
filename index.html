@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+      123123123123
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div
+        class="container d-flex align-items-center justify-content-center flex-column bg-light w-50 rounded-4"
+      >
+        <div class="mt-4">
+          <h2 class="text-center">Registrazione Utente</h2>
+        </div>
+        <form class="row g-3 needs-validation form-input" novalidate>
+          <input
+            type="text"
+            class="form-control name"
+            placeholder="Firstname"
+          />
+          <div class="invalid-feedback error-name"></div>
+
+          <input
+            type="text"
+            class="form-control surname"
+            placeholder="Lastname"
+          />
+          <div class="invalid-feedback error-surname"></div>
+
+          <input type="number" class="form-control age" placeholder="Age" />
+          <div class="invalid-feedback error-age"></div>
+
+          <input
+            type="email"
+            class="form-control email"
+            aria-describedby="inputGroupPrepend"
+            placeholder="Email"
+          />
+          <div class="invalid-feedback error-email"></div>
+
+          <input
+            type="password"
+            class="form-control password"
+            aria-describedby="inputGroupPrepend"
+            placeholder="password"
+          />
+
+          <input
+            type="number"
+            class="form-control cap w-50"
+            placeholder="CAP"
+          />
+          <div class="invalid-feedback error-cap"></div>
+
+          <div>
+            <input
+              type="checkbox"
+              class="form-check-input married"
+              aria-describedby="inputGroupPrepend"
+            />
+            <label class="form-check-label">Married</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              class="form-check-input active"
+              aria-describedby="inputGroupPrepend"
+            />
+            <label class="form-check-label">Active</label>
+          </div>
+
+          <div class="col-12 d-flex justify-content-center mb-3">
+            <button class="btn btn-primary" type="submit">Registrati</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

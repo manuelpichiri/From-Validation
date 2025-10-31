@@ -1,0 +1,14 @@
+body {
+  background: url("./assets/lofi-girl-relaxing-morning-time-ce.jpg");
+}
+
+.name {
+  border-bottom: 42px;
+  text-decoration: none;
+}
+
+main {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
