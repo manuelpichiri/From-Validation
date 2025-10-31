@@ -99,6 +99,9 @@ const validationAge = () => {
     age.classList.add("is-invalid");
     errorAge.innerText = "You are not a turtle";
     return false;
+  } else if (age.value === "") {
+    age.classList.add("is-invalid");
+    errorAge.innerText = "Inserisci l'età";
   } else {
     age.classList.add("is-valid");
     return true;
@@ -114,6 +117,9 @@ const validationCap = () => {
     userCap.classList.add("is-invalid");
     errorCap.innerText = "Non Puoi inserire numeri negativi";
     return false;
+  } else if (userCap.value === "") {
+    userCap.classList.add("is-invalid");
+    errorCap.innerText = "Questo campo non può essere vuoto";
   } else {
     userCap.classList.add("is-valid");
     return true;
